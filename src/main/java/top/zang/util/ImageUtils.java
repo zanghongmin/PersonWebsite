@@ -1,4 +1,4 @@
-package top.zang;
+package top.zang.util;
 
 
 import javax.imageio.ImageIO;
@@ -24,12 +24,12 @@ public class ImageUtils {
         // 1-缩放图像：
         // 方法一：按比例缩放
        // ImageUtils.scale("e:/1.jpg", "e:/111.jpg", 2, false);//测试OK
-        ImageUtils.scale("C:\\Users\\zanghongmin\\Desktop\\360atop_0.png", "C:\\Users\\zanghongmin\\Desktop\\360atop_00.png", 2, false);//测试OK
+//        ImageUtils.scale("C:\\Users\\zanghongmin\\Desktop\\360atop_0.png", "C:\\Users\\zanghongmin\\Desktop\\360atop_00.png", 2, false);//测试OK
 
-//
-//        // 方法二：按高度和宽度缩放
-//        ImageUtils.scale2("C:\\Users\\zanghongmin\\Desktop\\360jiagu_comp_0.png", "C:\\Users\\zanghongmin\\Desktop\\360jiagu_comp_00.png", 350, 350, true);//测试OK
-//
+
+        // 方法二：按高度和宽度缩放
+        ImageUtils.scale2("C:\\Users\\zanghongmin\\Desktop\\github.jpg", "C:\\Users\\zanghongmin\\Desktop\\github0.jpg", 30, 86, false);//测试OK
+
 //
 //        // 2-切割图像：
 //        // 方法一：按指定起点坐标和宽高切割

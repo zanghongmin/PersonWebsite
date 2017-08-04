@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url(/static/img/noise.png);
+  background-attachment: fixed;
+  color: #3c3c3c;
+  font-family: Microsoft YaHei, Simsum, serif;
+  font-size: small;
+  height: 100%;
+  margin: 0 auto;
+  min-height: 510px;
+}
+
+
+/* quickdial view */
+#searchform {
+  display: block;
+  height: 60px;
+  margin: auto;
+  padding: 50px 0 20px;
+  overflow: hidden;
+  width: 605px;
+}
+#searchform[hidden] {
+  height: 0;
+}
+#searchform > fieldset {
+  border: 0;
+  margin: 0;
+  padding: 3px;
+}
+#searchform[hidden] > fieldset {
+  display: none;
+}
+#searchform > fieldset:first-of-type > a {
+  display: inline-block;
+  height: 32px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: bottom;
+  width: 100px;
+}
+#searchform > fieldset:last-of-type {
+  margin-left: 100px;
+}
+#searchform > fieldset > input[name="q"] {
+  border: 1px solid #d8d8d8;
+  border-right: none;
+  height: 30px;
+  padding: 0 5px;
+  width: 400px;
+}
+#searchform > fieldset > input[name="q"]:focus {
+  border: 1px solid #009ae2;
+  border-right: none;
+}
+#searchform > fieldset > input[type="button"] {
+  background-image: linear-gradient(to bottom, #fbfbfb, #f3f3f3);
+  border: 1px solid #d8d8d8;
+  cursor: pointer;
+  height: 32px;
+  width: 86px;
+  -moz-appearance: none;
+}
+#searchform > fieldset > input[name="q"]:focus + input[type="button"] {
+  background-image: linear-gradient(to bottom, #44adfb, #1e96e8);
+  border: 1px solid #009ae2;
+  color: white;
+}
