@@ -2,7 +2,6 @@ html {
   height: 100%;
 }
 body {
-  background-image: url(/static/img/noise.png);
   background-attachment: fixed;
   color: #3c3c3c;
   font-family: Microsoft YaHei, Simsum, serif;
@@ -13,14 +12,34 @@ body {
 }
 
 
+#section {
+  width: 60%;
+  float:left;
+  padding:0px;
+  background-color:#FFF;
+  margin-top: 0px;
+  height: 280px;
+}
+
+#footer {
+  background-color:#FFF;
+  clear:both;
+  padding:5px;
+}
+
+.testdiv {
+  float:left;
+}
+
 /* quickdial view */
 #searchform {
-  display: block;
-  height: 60px;
-  margin: auto;
-  padding: 50px 0 20px;
+  background-color:#EEE;
+  float:left;
+  height: 280px;
+  margin: 0px;
   overflow: hidden;
-  width: 605px;
+  width: 40%;
+  margin-top: 0px;
 }
 #searchform[hidden] {
   height: 0;
@@ -29,6 +48,8 @@ body {
   border: 0;
   margin: 0;
   padding: 3px;
+  margin-left: 50px;
+
 }
 #searchform[hidden] > fieldset {
   display: none;
@@ -42,7 +63,10 @@ body {
   width: 100px;
 }
 #searchform > fieldset:last-of-type {
-  margin-left: 100px;
+  margin-left: 150px;
+}
+#searchform > fieldset:first-of-type {
+  margin-top: 100px;
 }
 #searchform > fieldset > input[name="q"] {
   border: 1px solid #d8d8d8;

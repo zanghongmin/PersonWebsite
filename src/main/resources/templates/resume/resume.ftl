@@ -264,7 +264,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="col-md-6 employ-right">
             <h5><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>Java全栈开发</h5>
-            <p><a href="https://github.com/zanghongmin/jiaguBaoManageSystem" target="_blank">完成了360加固保后台管理平台等项目开发，从数据库到页面显示设计及开发...</a></p>
+            <p><a href="https://github.com/zanghongmin/adminSystem" target="_blank">完成了360加固保后台管理平台等项目开发，从数据库到页面显示设计及开发...</a></p>
         </div>
         <div class="col-md-6 employ-left2">
             <h5>hadoop大数据开发<span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></h5>
@@ -567,7 +567,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div class="modal-body">
                         <h3>360加固保运营管理后台</h3>
                         <img src="resume/images/360jiagu_manger_0.png" class="img-responsive img-centered" alt="">
-                        <p><a href="https://github.com/zanghongmin/jiaguBaoManageSystem" target="_blank">360加固保运营管理后台页面，用于管理留言回复、数据统计、黑白名单等...</a></p>
+                        <p><a href="https://github.com/zanghongmin/adminSystem" target="_blank">360加固保运营管理后台页面，用于管理留言回复、数据统计、黑白名单等...</a></p>
                     </div>
                 </div>
             </div>
