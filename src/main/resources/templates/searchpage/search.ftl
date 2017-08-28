@@ -58,7 +58,9 @@
             <li><a href="http://mqc.aliyun.com/" target="_blank">9. 阿里移动质量中心平台</a></li>
             <li><a href="http://www.testin.cn/" target="_blank">10. testin平台</a></li>
             <li><a href="http://utest.qq.com/" target="_blank">11. 腾讯云测试平台</a></li>
-            <li><a href="http://mtc.baidu.com//" target="_blank">12. 百度MTC平台</a></li>
+            <li><a href="http://mtc.baidu.com/" target="_blank">12. 百度MTC平台</a></li>
+            <li><a href="https://www.nowcoder.com/" target="_blank">13. 牛客网(java面试练习题)</a></li>
+
         </ul>
     </div>
     <div class="testdiv">
@@ -104,5 +106,12 @@
 
 </div>
 
+
+<div class="recordcode">
+    <a href="http://www.miitbeian.gov.cn/" target="_blank">
+        <i></i>
+        京ICP备17048896号
+    </a>
+</div>
 </body>
 </html>
