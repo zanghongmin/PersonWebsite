@@ -42,6 +42,8 @@
             <li><a href="http://lib.mayiso.com/e/action/ShowInfo.php?classid=2&id=1" target="_blank">4. 蚂蚁图书馆(进入其他论文网站的入口)</a></li>
             <li><a href="http://www.cnki.net/" target="_blank">5. 知网(国内最大的论文网站)</a></li>
             <li><a href="http://www.arocmag.com/" target="_blank">6. 计算机应用研究期刊</a></li>
+            <li><a href="http://www.geekpark.net/" target="_blank">7. 极客公园</a></li>
+
         </ul>
     </div>
     <div class="testdiv">
