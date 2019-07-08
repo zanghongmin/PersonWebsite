@@ -1,0 +1,60 @@
+
+		.modaltestwidth{
+			width:90%;	
+			top:7%;
+		}  
+		@media (min-width: 768px) {
+			.modaltestwidth{
+				width:80%;	
+				top:7%;
+			}  
+		}
+		
+		@media (min-width: 992px) {
+			.modaltestwidth{
+				width:70%;	
+				top:7%;
+			}  
+		}
+		
+		@media (min-width: 1200px){
+			.modaltestwidth{
+				width:60%;	
+				top:7%;
+			}  
+		}
+
+
+        #sortablesearchpageselection { list-style-type: none; margin: 0; padding: 0;padding-bottom: 20px; }
+        #sortablesearchpageselection li { margin: 3px 15px 10px 0px; padding: 1px; float: left; width: 180px; height: 30px; cursor: pointer;font-size: 12px; }
+        
+        #sortablesearchpageselection li .checkboxsearchpages{ width: 13px;height: 13px;margin-top:4px;margin-left:4px}
+        #sortablesearchpageselection li .textsearchpages{ width: 100px;margin-top:7px;margin-left:4px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+        #sortablesearchpageselection li .textsearchpages span{ color: #32649a;font-size: 12px; }        
+        #sortablesearchpageselection li .iconsearchpages{ width: 12px;height: 12px;}
+
+
+        
+        .weblistcolumn  li {margin-left:0px ; padding: 3px 1px 1px 1px; cursor: pointer;font-size: 12px; }
+        .weblistcolumn  li span{display:none;margin-right:1px;margin-left:1px}
+        .weblistcolumn  li:hover {color: black;background: #dde5ed;}
+        .weblistcolumn  li:hover span {display:block;}
+
+		.weblistcolumn  li a{width:80%; overflow: hidden;text-overflow: ellipsis;text-decoration: none;}	
+
+		.weblistcolumn  li a:hover {color:red;text-decoration:underline;}
+		
+
+        .glyphicon-plus-sign:hover {text-shadow: black 0px 0px 8px;}
+        .weblistportlet {margin: 0 0 1em 0;padding: 0.3em;}
+        .weblistportlet-header {padding: 0.2em 0.3em;margin-bottom: 0.5em; position: relative;}
+        .weblistportlet-header .textclass {width:70%; overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+        .weblistportlet-header .iconclass{ width: 12px;height: 12px;}
+        .weblistportlet-header  span.glyphicon  {margin-right:1px;margin-left:1px;display:none;}
+        .weblistportlet-header:hover span  {display:block;}
+        .weblistportlet-content {padding: 0.4em;}
+        .weblistportlet-placeholder {border: 1px dotted black;margin: 0 1em 1em 0; height: 50px;}
+         a, a:visited {color: #32649a;text-decoration: none;outline:none;}
+         button{outline:none;}
+         #modal_help_document li{white-space:normal; word-break : break-all; word-wrap: break-word;}
+        
